@@ -1,0 +1,2 @@
+language = "python"
+run = "python cv4-perform-Erosion-and-Dilation-on-Image.py"
