@@ -3,7 +3,7 @@
 import cv2
 # from google.colab.patches import cv2_imshow
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 # Always erosio after Dilated image
@@ -43,7 +43,7 @@ display = np.hstack((grey_my_img ,canny_my_img , dilate_my_img , erosion_my_img)
 # cv2_imshow(display)
 cv2.imshow("Display All Horizentally",display)
 
-
+"""
 # create figure with matplotlib
 fig = plt.figure(figsize=(20,10))
 rows = 2
@@ -61,4 +61,4 @@ plt.imshow(dilate_my_img)
 fig.add_subplot(rows, columns, 4)
 plt.imshow(erosion_my_img)
 
-plt.show()
+plt.show()"""
